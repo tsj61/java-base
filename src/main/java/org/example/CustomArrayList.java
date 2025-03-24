@@ -143,7 +143,7 @@ public class CustomArrayList<E> {
      * Расширение массива в полтора раза от текущей вместимости
      */
     private void grow() {
-        int newCapacity = (int) ((this.elements.length * 1.5));
+        int newCapacity = (int) ((this.elements.length * 1.5) + 1);
         this.elements = Arrays.copyOf(this.elements, newCapacity);
     }
 
