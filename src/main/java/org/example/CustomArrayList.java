@@ -69,6 +69,15 @@ public class CustomArrayList<E> {
     }
 
     /**
+     * Проверка.является ли массив пустым
+     *
+     * @return true если массив пустой
+     */
+    public boolean isEmpty() {
+        return size == 0;
+    }
+
+    /**
      * Возвращает элемент списка по индексу
      *
      * @param index индекс элемента
