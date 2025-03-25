@@ -149,6 +149,7 @@ public class CustomHashMap<K, V> {
         // если бакет пустой .то элемент просто добавляется
         if (this.table[number] == null) {
             this.table[number] = newNode;
+            this.size++;
         } else {
             // идем по списку и сравниваем ключ нового и ключ в списке по хэшкодам
             CustomNode<K, V> currentNode = this.table[number];
@@ -175,8 +176,9 @@ public class CustomHashMap<K, V> {
             } else {
                 previousNode.nextElement = newNode;
             }
+
+            this.size++;
         }
-        this.size++;
     }
 
     /**
