@@ -1,4 +1,4 @@
-package org.example.task2;
+package org.example.aston_java_base.stream_api;
 
 import java.util.ArrayList;
 import java.util.List;

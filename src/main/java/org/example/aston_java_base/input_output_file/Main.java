@@ -1,4 +1,4 @@
-package org.example.task3;
+package org.example.aston_java_base.input_output_file;
 
 import java.io.BufferedReader;
 import java.io.FileInputStream;

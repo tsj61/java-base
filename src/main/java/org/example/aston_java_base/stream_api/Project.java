@@ -1,4 +1,4 @@
-package org.example.task2;
+package org.example.aston_java_base.stream_api;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

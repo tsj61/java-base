@@ -1,4 +1,4 @@
-package org.example.task1;
+package org.example.aston_java_base.custom_collection;
 
 import java.util.Map;
 import java.util.Objects;
