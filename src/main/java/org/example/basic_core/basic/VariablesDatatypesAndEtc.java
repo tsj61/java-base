@@ -2,14 +2,14 @@ package org.example.basic_core.basic;
 
 public class VariablesDatatypesAndEtc {
     public static void main(String[] args) {
-        task1();
-        task2();
+        doTask1();
+        doTask2();
     }
 
     /**
      * Присвоить переменной a значение переменной b и наоборот.
      */
-    private static void task1() {
+    private static void doTask1() {
         int a = 5;
         int b = 10;
 
@@ -29,7 +29,7 @@ public class VariablesDatatypesAndEtc {
      * Одну переменную типа char.
      * вывести свое имя в консоль.
      */
-    private static void task2() {
+    private static void doTask2() {
         char ch = 'Ю';
         System.out.println(ch);
         ch = 'л';

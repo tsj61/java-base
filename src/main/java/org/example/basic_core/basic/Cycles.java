@@ -4,17 +4,17 @@ import java.util.Scanner;
 
 public class Cycles {
     public static void main(String[] args) {
-        task1();
-        task2();
-        task3();
-        task4();
-        task5();
+        doTask1();
+        doTask2();
+        doTask3();
+        doTask4();
+        doTask5();
     }
 
     /**
      * Ввести с клавиатуры целое число. Вывести в консоль его факториал.
      */
-    private static void task1() {
+    private static void doTask1() {
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();
         scanner.close();
@@ -34,7 +34,7 @@ public class Cycles {
     /**
      * Ввести с клавиатуры целое число. Вывести в консоль сумму цифр введенного числа.
      */
-    private static void task2() {
+    private static void doTask2() {
         Scanner scanner = new Scanner(System.in);
         int number = scanner.nextInt();
         scanner.close();
@@ -56,7 +56,7 @@ public class Cycles {
     /**
      * Написать программу, которая принимает длину и ширину прямоугольника (2 целых числа). Нарисовать в консоли заданный прямоугольник, используя - и |. Углы прямоугольника обозначить символом   (пробел). Каждая единица длины должна обозначаться одним символом -, каждая единица ширины – символом |.
      */
-    private static void task3() {
+    private static void doTask3() {
         Scanner scanner = new Scanner(System.in);
         int length = scanner.nextInt();
         int width = scanner.nextInt();
@@ -89,7 +89,7 @@ public class Cycles {
      * <p>
      * Если Число1 четное, вывести сумму двух чисел, если нет - разность. Также если числа равны - вывести надпись Числа равны!.
      */
-    private static void task4() {
+    private static void doTask4() {
         Scanner scanner = new Scanner(System.in);
         int num2 = scanner.nextInt();
         scanner.close();
@@ -114,7 +114,7 @@ public class Cycles {
      * <p>
      * Вариант 2: после вывода на экран Не угадал!
      */
-    private static void task5() {
+    private static void doTask5() {
         Scanner scanner = new Scanner(System.in);
 
         while (scanner.nextInt() != 1) {//Перед каждым выводом фразы будет запрашиваться число

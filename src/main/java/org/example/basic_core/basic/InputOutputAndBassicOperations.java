@@ -4,9 +4,9 @@ import java.util.Scanner;
 
 public class InputOutputAndBassicOperations {
     public static void main(String[] args) {
-        task1();
-        task2();
-        task3();
+        doTask1();
+        doTask2();
+        doTask3();
     }
 
     /**
@@ -16,7 +16,7 @@ public class InputOutputAndBassicOperations {
      * <p>
      * Совпадает ли результат выражения, если a и b — переменные типа int (для проверки не забудьте также использовать подходящий метод Scanner)?
      */
-    private static void task1() {
+    private static void doTask1() {
         Scanner scanner = new Scanner(System.in);
         float a = scanner.nextFloat();
         float b = scanner.nextFloat();
@@ -29,7 +29,7 @@ public class InputOutputAndBassicOperations {
      * <p>
      * a3 > b2
      */
-    private static void task2() {
+    private static void doTask2() {
         Scanner scanner = new Scanner(System.in);
         int a = scanner.nextInt();
         int b = scanner.nextInt();
@@ -38,7 +38,7 @@ public class InputOutputAndBassicOperations {
         scanner.close();
     }
 
-    private static void task3() {
+    private static void doTask3() {
         int a = 1;
         int b = a++;
         b += a++;

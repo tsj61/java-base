@@ -4,10 +4,10 @@ import java.util.Scanner;
 
 public class TypeCastingAndConditionalOperators {
     public static void main(String[] args) {
-        task1();
-        task2();
-        task3();
-        task4();
+        doTask1();
+        doTask2();
+        doTask3();
+        doTask4();
     }
 
     /**
@@ -15,7 +15,7 @@ public class TypeCastingAndConditionalOperators {
      * <p>
      * Также если числа равны - вывести надпись Числа равны!
      */
-    private static void task1() {
+    private static void doTask1() {
         Scanner scanner = new Scanner(System.in);
         int a = scanner.nextInt();
         int b = scanner.nextInt();
@@ -44,7 +44,7 @@ public class TypeCastingAndConditionalOperators {
      * if-else;
      * switch-case
      */
-    private static void task2() {
+    private static void doTask2() {
         Scanner scanner = new Scanner(System.in);
         String string = scanner.nextLine();
         scanner.close();
@@ -72,7 +72,7 @@ public class TypeCastingAndConditionalOperators {
      * <p>
      * Выведите в консоль ваше ФИО в одну строку.
      */
-    private static void task3() {
+    private static void doTask3() {
         Scanner scanner = new Scanner(System.in);
         String name = scanner.nextLine();
         String lastName = scanner.nextLine();
@@ -92,7 +92,7 @@ public class TypeCastingAndConditionalOperators {
      * <p>
      */
 
-    private static void task4() {
+    private static void doTask4() {
         Scanner scanner = new Scanner(System.in);
         int a = scanner.nextInt();
         int b = scanner.nextInt();
