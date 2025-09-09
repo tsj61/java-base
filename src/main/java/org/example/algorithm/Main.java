@@ -22,9 +22,6 @@ public class Main {
         System.out.println(algorithmService.quickSort(List.of(-2, 8, -9, 14, -25)));
         System.out.println(algorithmService.mergeSort(List.of(-2, 8, -9, 14, -25)));
 
-        LeetCodeAnswer leetCodeAnswer = new LeetCodeAnswer();
-        System.out.println(leetCodeAnswer.canConstruct1("aa", "aab"));
-
     }
 
 }
